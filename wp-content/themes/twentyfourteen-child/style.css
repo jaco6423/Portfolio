@@ -1,0 +1,231 @@
+/*
+ Theme Name:   Twenty fourteen Child
+ Theme URI:    http://example.com/twenty-fourteen-child/
+ Description:  Twenty fourteen Child Theme
+ Author:       Me :D
+ Template:     twentyfourteen
+*/
+#secondary{
+    display: none;
+}
+
+#primary{
+    padding-top: 3vw;
+}
+
+img.wp-image-11 {
+    max-width: 20vw;
+    min-width: 250px;
+    margin: auto 3vw auto auto;
+}
+
+h4{
+    clear: none;
+    margin: auto 2vw auto 2vw;
+}
+
+.site-header{
+    max-width: none;
+}
+
+.site{
+    max-width: none;
+}
+
+.site, .site-header, .site .site-content .entry-header, .site-content .entry-content, .site-content .entry-summary, .site-content .entry-meta, .page-content {
+    max-width: none;
+}
+
+.site:before{
+    display: none;
+}
+
+.wp-block-image.is-resized h4{
+    display: inline-block;
+}
+
+.wp-block-image.is-resized img{
+    width: 6vw;
+}
+
+figure.wp-block-image.is-resized.start{
+    margin: 1% 1% 1% 1%;
+}
+
+#content{
+    margin: 0;
+}
+
+figure.wp-block-image{
+    display: contents;
+    margin: 1% 1% 1% 1%;
+}
+
+figure.grid-text{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 6vw;
+    margin: 7vw 40px 40px 40px;
+}
+
+figure.grid-project{
+    display: grid;
+    grid-column-gap: 6vw;
+    margin: 7vw 40px 40px 40px;
+    text-align: center;
+}
+
+.wp-block-image.is-resized h4{
+    font-size: 2vw;
+}
+
+.search-toggle{
+    display: none;
+}
+
+#primary-menu{
+    margin: 0px 2vw 0px 0px;
+}
+
+h1.entry-title{
+    text-align: center;
+}
+
+h2.entry-project{
+    text-align: center;
+}
+
+.project-title{
+    text-align: center;
+}
+
+img.project{
+    width: 25vw;
+}
+
+.intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 6vw;
+}
+
+.intro-text{
+    margin: auto 13vw auto auto;
+    font-size: 0.9rem;
+}
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 6vw;
+}
+
+.some{
+float: right;
+}
+
+.some-icon{
+    width: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Animation*/
+
+
+/* animation styles */
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	33% { opacity: 0; }
+	66% { opacity: 1; }
+	100% { opacity: 1; }
+}
+
+@keyframes fadeInSpin {
+    0% { opacity: 0;
+        transform:rotate(0deg) }
+    33% { opacity: 0;
+ }
+    66% { opacity: 1; 
+}
+    100% { opacity: 1; 
+        transform:rotate(1080deg)}
+}
+
+.fademe {
+	animation-name: fadeIn;
+    animation-duration: 0.5s;
+}
+
+.fade {
+	animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+.fadelate {
+	animation-name: fadeInSpin;
+    animation-duration: 2s;
+}
+
+
+
+
+
+
+
+
+
+/*Media Queries*/
+
+@media screen and (max-width:1000px){
+    .wp-block-image.is-resized h4{
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width:650px){
+    figure.grid-text{
+        display: block;
+        margin: 13vw 40px 40px 40px;
+    }
+
+    img.wp-image-11 {
+        min-width: 35vw;
+        margin: auto;
+    }
+
+    .wp-block-image.is-resized img{
+        width: 9vw;
+    }
+
+    figure.wp-block-image.is-resized.start{
+        margin: 5vw 1% 1% 1%;
+    }
+
+    .wp-block-image.is-resized h4{
+        font-size: 3.5vw;
+    }
+
+    section.intro{
+        grid-template-columns:  auto;
+    }
+
+    p.intro-text{
+        margin: 3vw 40px auto 40px;
+    }
+
+    .video-grid{
+        display: block;
+    }
+}

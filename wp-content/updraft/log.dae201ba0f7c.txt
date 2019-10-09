@@ -1,0 +1,164 @@
+0000.001 (0) Opened log file at time: Wed, 11 Sep 2019 07:21:19 +0000 on http://localhost/wordpress090919
+0000.014 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.16 WP: 5.2.3 PHP: 7.3.8 (apache2handler, Windows NT NEW-9H7GR11DSET 10.0 build 17134 (Windows 10) AMD64) MySQL: 10.4.6-MariaDB WPLANG: en_US Server: Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 24.4M | 4M) multisite: N openssl: OpenSSL 1.1.1c  28 May 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.026 (0) Free space on disk containing Updraft's temporary directory: 29530.4 MB
+0000.047 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.061 (0) Semaphore (fd, wp090919_options) being initialised
+0000.111 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.165 (0) Set semaphore last lock (fd) time to 2019-09-11 07:21:19
+0000.177 (0) Semaphore lock (fd) complete
+0000.217 (0) Backup run: resumption=0, nonce=dae201ba0f7c, file_nonce=dae201ba0f7c begun at=1568186479 (0s ago), job type=backup
+0000.240 (0) Scheduling a resumption (1) after 300 seconds (1568186779) in case this run gets aborted
+0000.275 (0) Checking if we have a zip executable available
+0000.301 (0) Creation of backups of directories: beginning
+0000.408 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.493 (0) Total entities for the zip file: 210 directories, 1371 files (0 skipped as non-modified), 22.8 MB
+0001.644 (0) Zip: backup_2019-09-11-0721_Insta_dae201ba0f7c-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.728 (0) Zip: backup_2019-09-11-0721_Insta_dae201ba0f7c-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.815 (0) Zip: backup_2019-09-11-0721_Insta_dae201ba0f7c-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.901 (0) Zip: backup_2019-09-11-0721_Insta_dae201ba0f7c-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.004 (0) Zip: backup_2019-09-11-0721_Insta_dae201ba0f7c-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.017 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (19 MB, 1371 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0004.295 (0) Zip: backup_2019-09-11-0721_Insta_dae201ba0f7c-plugins.zip.tmp: 600 files added (on-disk size: 5427.1 KB)
+0004.412 (0) Zip: backup_2019-09-11-0721_Insta_dae201ba0f7c-plugins.zip.tmp: 700 files added (on-disk size: 5427.1 KB)
+0004.523 (0) Zip: backup_2019-09-11-0721_Insta_dae201ba0f7c-plugins.zip.tmp: 800 files added (on-disk size: 5427.1 KB)
+0004.709 (0) Zip: backup_2019-09-11-0721_Insta_dae201ba0f7c-plugins.zip.tmp: 900 files added (on-disk size: 5427.1 KB)
+0004.789 (0) Zip: backup_2019-09-11-0721_Insta_dae201ba0f7c-plugins.zip.tmp: 1000 files added (on-disk size: 5427.1 KB)
+0004.806 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.8 MB, 1371 files batched, 501 (1002) added so far); re-opening (prior size: 5427.1 KB)
+0005.300 (0) Zip: backup_2019-09-11-0721_Insta_dae201ba0f7c-plugins.zip.tmp: 1100 files added (on-disk size: 6132.5 KB)
+0005.375 (0) Zip: backup_2019-09-11-0721_Insta_dae201ba0f7c-plugins.zip.tmp: 1200 files added (on-disk size: 6132.5 KB)
+0005.459 (0) Zip: backup_2019-09-11-0721_Insta_dae201ba0f7c-plugins.zip.tmp: 1300 files added (on-disk size: 6132.5 KB)
+0006.142 (0) Created plugins zip (0) - 6760 KB in 5.7 s (1184.2 KB/s) (sha1: 43ee17d273e524cf313662af0c35af78020a8d5f, sha256: a74c4bcbba6a4fd22467ed578cd2dddf76f0448afb7200730e1d9ae3a6d06943)
+0006.178 (0) Beginning creation of dump of themes (split every: 400 MB)
+0006.409 (0) Total entities for the zip file: 45 directories, 195 files (0 skipped as non-modified), 3.1 MB
+0007.421 (0) Zip: backup_2019-09-11-0721_Insta_dae201ba0f7c-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0008.844 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.5 MB, 171 (171) files added so far); re-opening (prior size: 0 KB)
+0009.617 (0) Created themes zip (0) - 1936.9 KB in 3.4 s (566.6 KB/s) (sha1: 1087b97b916aa825b91527b116e7917d8dd6bcbc, sha256: e0396dd38881fc2c7378c34661b591c421aa11d4a629de2c869de1cac209d1a3)
+0009.649 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0009.661 (0) Looking for candidates to backup in: C:\xampp\htdocs\wordpress090919/wp-content/uploads
+0009.676 (0) finding files: 2019: adding to list (1)
+0009.693 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0009.742 (0) Total entities for the zip file: 2 directories, 0 files (0 skipped as non-modified), 0 MB
+0009.809 (0) Created uploads zip (0) - 0.2 KB in 0.1 s (2.7 KB/s) (sha1: 52a23a30fd9f02f8ac50cd1fcc11959fea4b49e5, sha256: 65c4a08b20b87205e4721796cb00e5448dd6e67f625613620586c746b1bc7861)
+0009.851 (0) Beginning backup of other directories found in the content directory (index: 0)
+0009.865 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0009.878 (0) Looking for candidates to backup in: C:\xampp\htdocs\wordpress090919/wp-content
+0009.892 (0) finding files: index.php: adding to list (1)
+0009.905 (0) finding files: plugins: skipping: this is the plugins directory
+0009.919 (0) finding files: themes: skipping: this is the themes directory
+0009.932 (0) finding files: updraft: skipping: this is the updraft directory
+0009.945 (0) finding files: upgrade: skipping: excluded by options
+0009.960 (0) finding files: uploads: skipping: this is the uploads directory
+0010.020 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0010.102 (0) Created others zip (0) - 0.1 KB in 0.1 s (1.4 KB/s) (sha1: 4f048fea96ec64c5d429bdcadd4d33a6cda70821, sha256: 7ebf4690426efc5e8b64a4b0ea6bf3f77f3ef90f0ef97a77b2416899fb2f0146)
+0010.172 (0) Saving backup status to database (elements: 8)
+0010.197 (0) Beginning creation of database dump (WordPress DB)
+0010.302 (0) Table wp090919_options: Total expected rows (approximate): 178
+0010.341 (0) Table wp090919_options: Total rows added: 174 in 0.03 seconds
+0010.365 (0) Table wp090919_options: finishing file (backup_2019-09-11-0721_Insta_dae201ba0f7c-db-table-wp090919_options.table.gz - 8 KB)
+0010.407 (0) Table wp090919_users: Total expected rows (approximate): 0
+0010.441 (0) Table wp090919_users: Total rows added: 1 in 0.02 seconds
+0010.456 (0) Table wp090919_users: finishing file (backup_2019-09-11-0721_Insta_dae201ba0f7c-db-table-wp090919_users.table.gz - 0.6 KB)
+0010.506 (0) Table wp090919_usermeta: Total expected rows (approximate): 17
+0010.560 (0) Table wp090919_usermeta: Total rows added: 17 in 0.04 seconds
+0010.581 (0) Table wp090919_usermeta: finishing file (backup_2019-09-11-0721_Insta_dae201ba0f7c-db-table-wp090919_usermeta.table.gz - 0.9 KB)
+0010.630 (0) Table wp090919_commentmeta: Total expected rows (approximate): 0
+0010.657 (0) Table wp090919_commentmeta: Total rows added: 0 in 0.01 seconds
+0010.673 (0) Table wp090919_commentmeta: finishing file (backup_2019-09-11-0721_Insta_dae201ba0f7c-db-table-wp090919_commentmeta.table.gz - 0.4 KB)
+0010.719 (0) Table wp090919_comments: Total expected rows (approximate): 0
+0010.751 (0) Table wp090919_comments: Total rows added: 1 in 0.02 seconds
+0010.770 (0) Table wp090919_comments: finishing file (backup_2019-09-11-0721_Insta_dae201ba0f7c-db-table-wp090919_comments.table.gz - 0.7 KB)
+0010.832 (0) Table wp090919_links: Total expected rows (approximate): 0
+0010.864 (0) Table wp090919_links: Total rows added: 0 in 0.02 seconds
+0010.880 (0) Table wp090919_links: finishing file (backup_2019-09-11-0721_Insta_dae201ba0f7c-db-table-wp090919_links.table.gz - 0.4 KB)
+0010.926 (0) Table wp090919_postmeta: Total expected rows (approximate): 2
+0010.970 (0) Table wp090919_postmeta: Total rows added: 2 in 0.03 seconds
+0010.988 (0) Table wp090919_postmeta: finishing file (backup_2019-09-11-0721_Insta_dae201ba0f7c-db-table-wp090919_postmeta.table.gz - 0.4 KB)
+0011.039 (0) Table wp090919_posts: Total expected rows (approximate): 4
+0011.082 (0) Table wp090919_posts: Total rows added: 4 in 0.03 seconds
+0011.101 (0) Table wp090919_posts: finishing file (backup_2019-09-11-0721_Insta_dae201ba0f7c-db-table-wp090919_posts.table.gz - 3.1 KB)
+0011.150 (0) Table wp090919_term_relationships: Total expected rows (approximate): 0
+0011.204 (0) Table wp090919_term_relationships: Total rows added: 1 in 0.04 seconds
+0011.219 (0) Table wp090919_term_relationships: finishing file (backup_2019-09-11-0721_Insta_dae201ba0f7c-db-table-wp090919_term_relationships.table.gz - 0.4 KB)
+0011.263 (0) Table wp090919_term_taxonomy: Total expected rows (approximate): 0
+0011.305 (0) Table wp090919_term_taxonomy: Total rows added: 1 in 0.03 seconds
+0011.325 (0) Table wp090919_term_taxonomy: finishing file (backup_2019-09-11-0721_Insta_dae201ba0f7c-db-table-wp090919_term_taxonomy.table.gz - 0.4 KB)
+0011.371 (0) Table wp090919_termmeta: Total expected rows (approximate): 0
+0011.399 (0) Table wp090919_termmeta: Total rows added: 0 in 0.02 seconds
+0011.419 (0) Table wp090919_termmeta: finishing file (backup_2019-09-11-0721_Insta_dae201ba0f7c-db-table-wp090919_termmeta.table.gz - 0.4 KB)
+0011.556 (0) Table wp090919_terms: Total expected rows (approximate): 0
+0011.585 (0) Table wp090919_terms: Total rows added: 1 in 0.02 seconds
+0011.602 (0) Table wp090919_terms: finishing file (backup_2019-09-11-0721_Insta_dae201ba0f7c-db-table-wp090919_terms.table.gz - 0.4 KB)
+0011.644 (0) backup_2019-09-11-0721_Insta_dae201ba0f7c-db-table-wp090919_options.table.gz (1/12): adding to final database dump
+0011.682 (0) backup_2019-09-11-0721_Insta_dae201ba0f7c-db-table-wp090919_users.table.gz (2/12): adding to final database dump
+0011.696 (0) backup_2019-09-11-0721_Insta_dae201ba0f7c-db-table-wp090919_usermeta.table.gz (3/12): adding to final database dump
+0011.710 (0) backup_2019-09-11-0721_Insta_dae201ba0f7c-db-table-wp090919_commentmeta.table.gz (4/12): adding to final database dump
+0011.723 (0) backup_2019-09-11-0721_Insta_dae201ba0f7c-db-table-wp090919_comments.table.gz (5/12): adding to final database dump
+0011.737 (0) backup_2019-09-11-0721_Insta_dae201ba0f7c-db-table-wp090919_links.table.gz (6/12): adding to final database dump
+0011.750 (0) backup_2019-09-11-0721_Insta_dae201ba0f7c-db-table-wp090919_postmeta.table.gz (7/12): adding to final database dump
+0011.763 (0) backup_2019-09-11-0721_Insta_dae201ba0f7c-db-table-wp090919_posts.table.gz (8/12): adding to final database dump
+0011.782 (0) backup_2019-09-11-0721_Insta_dae201ba0f7c-db-table-wp090919_term_relationships.table.gz (9/12): adding to final database dump
+0011.798 (0) backup_2019-09-11-0721_Insta_dae201ba0f7c-db-table-wp090919_term_taxonomy.table.gz (10/12): adding to final database dump
+0011.813 (0) backup_2019-09-11-0721_Insta_dae201ba0f7c-db-table-wp090919_termmeta.table.gz (11/12): adding to final database dump
+0011.828 (0) backup_2019-09-11-0721_Insta_dae201ba0f7c-db-table-wp090919_terms.table.gz (12/12): adding to final database dump
+0011.875 (0) backup_2019-09-11-0721_Insta_dae201ba0f7c-db.gz: finished writing out complete database file (0 KB)
+0011.951 (0) Total database tables backed up: 12 (backup_2019-09-11-0721_Insta_dae201ba0f7c-db.gz, size: 13408, sha1: 5d3598854cee5ca4b64fc60c9aeab6b0b4610d6c, sha256: 2038b1bf61a04c7c82237009f8b67a61f1cdd925184d4c2d386bed029a64f6d2)
+0012.012 (0) backup_2019-09-11-0721_Insta_dae201ba0f7c-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0012.027 (0) backup_2019-09-11-0721_Insta_dae201ba0f7c-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0012.041 (0) backup_2019-09-11-0721_Insta_dae201ba0f7c-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0012.054 (0) backup_2019-09-11-0721_Insta_dae201ba0f7c-others.zip: others: This file has not yet been successfully uploaded: will queue
+0012.067 (0) backup_2019-09-11-0721_Insta_dae201ba0f7c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0012.081 (0) Saving backup history. Total backup size: 8.5 MB
+0012.110 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0012.149 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0012.181 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-c49e701b92c80c3f01047d75e34ee7b8)
+0012.197 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0012.233 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0032.251 (0) Dropbox: exception (Dropbox_CurlException) occurred whilst getting account info: Operation timed out after 20000 milliseconds with 82 bytes received
+0032.264 (0) Dropbox: Attempt to upload: backup_2019-09-11-0721_Insta_dae201ba0f7c-plugins.zip to: backup_2019-09-11-0721_Insta_dae201ba0f7c-plugins.zip
+0033.545 (0) Dropbox chunked upload: 15.1 % uploaded (AAAAAAAAALQ2JIWovsEUcg, 1048576, 7168 KB)
+0036.029 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAALQ2JIWovsEUcg, 6922290, 7168 KB)
+0037.687 (0) Recording as successfully uploaded: backup_2019-09-11-0721_Insta_dae201ba0f7c-plugins.zip
+0037.722 (0) Deleting local file: backup_2019-09-11-0721_Insta_dae201ba0f7c-plugins.zip: OK
+0037.734 (0) Dropbox: File upload success (backup_2019-09-11-0721_Insta_dae201ba0f7c-plugins.zip): 6760 KB in 5s (1235 KB/s)
+0057.779 (0) Dropbox: exception (Dropbox_CurlException) occurred whilst getting account info: Operation timed out after 20000 milliseconds with 82 bytes received
+0057.792 (0) Dropbox: Attempt to upload: backup_2019-09-11-0721_Insta_dae201ba0f7c-themes.zip to: backup_2019-09-11-0721_Insta_dae201ba0f7c-themes.zip
+0059.080 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAALVEzZarSrBdHA, 1983402, 7168 KB)
+0060.805 (0) Recording as successfully uploaded: backup_2019-09-11-0721_Insta_dae201ba0f7c-themes.zip
+0060.844 (0) Deleting local file: backup_2019-09-11-0721_Insta_dae201ba0f7c-themes.zip: OK
+0060.858 (0) Dropbox: File upload success (backup_2019-09-11-0721_Insta_dae201ba0f7c-themes.zip): 1936 KB in 3s (631 KB/s)
+0080.908 (0) Dropbox: exception (Dropbox_CurlException) occurred whilst getting account info: Operation timed out after 20000 milliseconds with 82 bytes received
+0080.925 (0) Dropbox: Attempt to upload: backup_2019-09-11-0721_Insta_dae201ba0f7c-uploads.zip to: backup_2019-09-11-0721_Insta_dae201ba0f7c-uploads.zip
+0081.697 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAALbJoA8Pz6vHSw, 232, 7168 KB)
+0082.970 (0) Recording as successfully uploaded: backup_2019-09-11-0721_Insta_dae201ba0f7c-uploads.zip
+0083.013 (0) Deleting local file: backup_2019-09-11-0721_Insta_dae201ba0f7c-uploads.zip: OK
+0083.028 (0) Dropbox: File upload success (backup_2019-09-11-0721_Insta_dae201ba0f7c-uploads.zip): 0 KB in 2s (0 KB/s)
+0103.077 (0) Dropbox: exception (Dropbox_CurlException) occurred whilst getting account info: Operation timed out after 20000 milliseconds with 82 bytes received
+0103.092 (0) Dropbox: Attempt to upload: backup_2019-09-11-0721_Insta_dae201ba0f7c-others.zip to: backup_2019-09-11-0721_Insta_dae201ba0f7c-others.zip
+0103.868 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAALcV34Uh4piPPA, 144, 7168 KB)
+0104.981 (0) Recording as successfully uploaded: backup_2019-09-11-0721_Insta_dae201ba0f7c-others.zip
+0105.010 (0) Deleting local file: backup_2019-09-11-0721_Insta_dae201ba0f7c-others.zip: OK
+0105.023 (0) Dropbox: File upload success (backup_2019-09-11-0721_Insta_dae201ba0f7c-others.zip): 0 KB in 1s (0 KB/s)
+0125.065 (0) Dropbox: exception (Dropbox_CurlException) occurred whilst getting account info: Operation timed out after 20000 milliseconds with 82 bytes received
+0125.079 (0) Dropbox: Attempt to upload: backup_2019-09-11-0721_Insta_dae201ba0f7c-db.gz to: backup_2019-09-11-0721_Insta_dae201ba0f7c-db.gz
+0125.831 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAALjYL9ovUp-16Q, 13408, 7168 KB)
+0127.016 (0) Recording as successfully uploaded: backup_2019-09-11-0721_Insta_dae201ba0f7c-db.gz
+0127.048 (0) Deleting local file: backup_2019-09-11-0721_Insta_dae201ba0f7c-db.gz: OK
+0127.061 (0) Dropbox: File upload success (backup_2019-09-11-0721_Insta_dae201ba0f7c-db.gz): 13 KB in 1s (6 KB/s)
+0127.122 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0127.137 (0) Number of backup sets in history: 1; groups (db): 1
+0127.150 (0) Examining (for databases) backup set with group_id=0, nonce=dae201ba0f7c, datestamp=1568186479 (Sep 11 2019 07:21:19)
+0127.164 (0) This backup set is the backup set just made, so will not be deleted.
+0127.164 (0) Number of backup sets in history: 1; groups (files): 1
+0127.179 (0) Examining (for files) backup set with nonce=dae201ba0f7c, datestamp=1568186479 (Sep 11 2019 07:21:19)
+0127.179 (0) This backup set is the backup set just made, so will not be deleted.
+0127.194 (0) This backup set is the backup set just made, so will not be deleted.
+0127.194 (0) This backup set is the backup set just made, so will not be deleted.
+0127.195 (0) This backup set is the backup set just made, so will not be deleted.
+0127.195 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0127.209 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0127.238 (0) Resume backup (dae201ba0f7c, 0): finish run
+0127.316 (0) Decremented the semaphore (fd) by 1
+0127.349 (0) Semaphore (fd) unlocked
+0127.361 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0127.401 (0) No email will/can be sent - the user has not configured an email address.
+0127.419 (0) The backup apparently succeeded and is now complete
